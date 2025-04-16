@@ -113,6 +113,7 @@ oe_cargo_fix_env () {
 	export CFLAGS="${CFLAGS}"
 	export CXXFLAGS="${CXXFLAGS}"
 	export AR="${AR}"
+	export TARGET="${BUILD_SYS}"
 	export TARGET_CC="${RUST_TARGET_CC}"
 	export TARGET_CXX="${RUST_TARGET_CXX}"
 	export TARGET_CFLAGS="${CFLAGS}"
